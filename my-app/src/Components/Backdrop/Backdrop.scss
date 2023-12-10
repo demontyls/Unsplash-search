@@ -1,0 +1,29 @@
+.backdrop {
+  background: rgba(0, 0, 0, 0.30);;
+
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+
+
+  button {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    z-index: 10;
+
+    @media (max-width: 568px) {
+      top: 16px;
+      right: 16px;
+    }
+
+    i {
+      width: 32px;
+      height: 32px;
+      font-size: 32px;
+    }
+  }
+}

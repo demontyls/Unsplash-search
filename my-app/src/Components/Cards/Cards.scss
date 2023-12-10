@@ -1,0 +1,13 @@
+.cards-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(114px, 1fr));
+  gap: 8px;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(auto-fill, minmax(204px, 1fr));
+  }
+}
+
+.fake-cards {
+  display: contents;
+}

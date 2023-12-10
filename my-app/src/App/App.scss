@@ -1,0 +1,13 @@
+header {
+    background: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.page-content {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-top: calc(80px);
+}

@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'icon';
+  src:  url('../../public/fonts/icon.eot?ikup13');
+  src:  url('../../public/fonts/icon.eot?ikup13#iefix') format('embedded-opentype'),
+    url('../../public/fonts/icon.ttf?ikup13') format('truetype'),
+    url('../../public/fonts/icon.woff?ikup13') format('woff'),
+    url('../../public/fonts/icon.svg?ikup13#icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="fa-"], [class*=" fa-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-search:before {
+  content: "\e900";
+}
+.fa-close:before {
+  content: "\e901";
+}
