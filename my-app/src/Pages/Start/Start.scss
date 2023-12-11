@@ -1,0 +1,10 @@
+.page-start {
+  height: 100vh;
+
+  > div {
+    display: flex;
+    width: fit-content;
+    height: 100%;
+    margin: auto;
+  }
+}
