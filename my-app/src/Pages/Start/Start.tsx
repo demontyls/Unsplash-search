@@ -3,7 +3,7 @@ import Search from '../../Components/Search/Search';
 
 const Start = () => {
   return (
-    <div className={'container'}>
+    <div className={'container page-start'}>
       <Search/>
     </div>
   );
